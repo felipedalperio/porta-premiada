@@ -1,0 +1,30 @@
+
+.jogo{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin-left: 1%;
+    height: 100vh; /* ocupa a tela inteira */
+}
+
+.portas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.botoes button{
+    background-color: #c0392c;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 2rem;
+    border: none; /* sem borda */
+    padding: 10px 25px; /* cima e baixo     esquerda direita */
+}
